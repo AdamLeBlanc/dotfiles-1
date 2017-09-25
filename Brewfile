@@ -1,8 +1,8 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
-tap samueljohn/python
-tap homebrew/science
+tap 'samueljohn/pythoni'
+tap 'homebrew/science'
 
 brew 'coreutils'
 brew 'cmake'
