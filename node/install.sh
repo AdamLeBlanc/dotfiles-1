@@ -1,3 +1,4 @@
+NVM_DIR="$HOME/.nvm"
 if test ! $(which spoof)
 then
   sudo npm install spoof -g
@@ -11,4 +12,4 @@ fi
 nvm install lts/*
 nvm install node
 nvm alias default node
-yarn global add http-server create-react-app @angular-cli yo
+yarn global add http-server create-react-app @angular/cli  yo
