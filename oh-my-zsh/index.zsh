@@ -1,7 +1,7 @@
 # inspired by https://github.com/rafaeleyng/dotfiles/blob/master/oh-my-zsh/index.zsh
 export ZSH=~/.oh-my-zsh
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 DEFAULT_USER=$(whoami)
 
 plugins=(docker git yarn z)
