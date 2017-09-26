@@ -5,7 +5,6 @@ export ZSH=~/.oh-my-zsh
 # Download here https://github.com/caiogondim/bullet-train.zsh/blob/master/bullet-train.zsh-theme
 ZSH_THEME="bullet-train"
 DEFAULT_USER=$(whoami)
-ß
 plugins=(brew chucknorris docker encode64 git git-extras node yarn sudo z)
 
 source $ZSH/oh-my-zsh.sh
