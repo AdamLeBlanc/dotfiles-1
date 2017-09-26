@@ -6,12 +6,12 @@ export ZSH=~/.oh-my-zsh
 ZSH_THEME="bullet-train"
 DEFAULT_USER=$(whoami)
 
-plugins=(docker git yarn z)
+plugins=(brew chucknorris docker encode64 git git-extras node yarn sudo)
 
 source $ZSH/oh-my-zsh.sh
 #source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-#
 
+# only show nvm if there is a package.json in the current directory
 prompt_nvm(){
     local nvm_prompt
     if [ -f package.json ]; then
