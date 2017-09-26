@@ -25,6 +25,8 @@ brew 'pyenv'
 brew 'gcc'
 brew 'mysql'
 brew 'git-extras'
+brew 'fortune'
+brew 'cowsay'
 
 cask 'iterm2'
 cask 'firefox'
